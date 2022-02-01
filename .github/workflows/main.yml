@@ -19,7 +19,6 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
-        npm run start
       env:
         CI: true
         CODECOV_TOKEN: '7bc4d95a-d5d0-4ad8-9f57-a1ead53d9bec'
